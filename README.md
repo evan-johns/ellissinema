@@ -1,4 +1,4 @@
-# Elissinema Podcast
+# Ellissinema Podcast
 A mediocre podcast discussing arts and crafts.
 
 ## Technologies Used:
