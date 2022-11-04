@@ -1,12 +1,3 @@
-/*  ---------------------------------------------------
-    Template Name: Megapod
-    Description: Mogapod Music Tamplate
-    Author: theDevNinja
-    Author URI: https://alitahir.netlify.app/
-    Version: 1.0
-    Created: theDevNinja
----------------------------------------------------------  */
-
 'use strict';
 
 (function ($) {
