@@ -261,6 +261,7 @@ ol {
 	padding: 25px 0;
 	display: inline-block;
 	margin-right: 250px;
+	max-width: 20%;
 }
 
 .header__logo a {
