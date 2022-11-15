@@ -448,7 +448,7 @@ ol {
 -----------------------*/
 
 .hero {
-	padding-top: 300px;
+	padding-top: 225px;
 	padding-bottom: 85px;
 	position: relative;
 }
@@ -740,6 +740,7 @@ ol {
 
 .podcast__item__pic {
 	float: left;
+	max-width: 25%;
 }
 
 .podcast__item__pic img {
