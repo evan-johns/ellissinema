@@ -34,8 +34,6 @@ html,
 body {
 	height: 100%;
 	font-family: "Source Sans Pro"
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 }
 
 h1,
@@ -258,7 +256,7 @@ ol {
 }
 
 .header__logo {
-	padding: 25px 0;
+	padding: 0px 0;
 	display: inline-block;
 	margin-right: 35px;
 	max-width: 20%;
