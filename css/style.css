@@ -249,7 +249,7 @@ ol {
 	top: 0;
 	width: 100%;
 	z-index: 9;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
 }
 
 .header.header--normal {
@@ -260,7 +260,7 @@ ol {
 .header__logo {
 	padding: 25px 0;
 	display: inline-block;
-	margin-right: 250px;
+	margin-right: 35px;
 	max-width: 20%;
 }
 
