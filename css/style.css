@@ -682,17 +682,26 @@ ol {
 }
 
 .podcast__top {
-	margin-bottom: 45px;
+	margin-bottom: 0px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 .podcast__top h2 {
 	color: #353535;
 	font-size: 40px;
 	font-weight: 700;
+	align-items: center;
+	display: flex;
+	text-align: center;
+	justify-content: center;
 }
 
 .podcast__top ul {
 	text-align: right;
+	
 }
 
 .podcast__top ul li {
@@ -702,7 +711,6 @@ ol {
 	color: #b7b7b7;
 	display: inline-block;
 	margin-right: 40px;
-	position: relative;
 	padding: 2px 0;
 	cursor: pointer;
 }
@@ -875,7 +883,7 @@ ol {
 -----------------------*/
 
 .episodes {
-	padding-bottom: 165px;
+	padding-bottom: 100px;
 }
 
 .episodes__item {
@@ -892,7 +900,7 @@ ol {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .episodes__item:hover .play-btn {
@@ -1095,13 +1103,16 @@ ol {
 
 .breadcrumb-option {
 	padding-top: 200px;
-	padding-bottom: 240px;
+	padding-bottom: 120px;
 	position: relative;
 	overflow: hidden;
+	border-bottom-left-radius: 1.5%;
+	border-bottom-right-radius: 1.5%;
 }
+.podcast.podcast--page
 
 .breadcrumb-option.normal-breadcrumb {
-	padding-bottom: 100px;
+	padding-bottom: 5px;
 }
 
 .breadcrumb-option .container {
@@ -1282,11 +1293,13 @@ ol {
 -----------------------*/
 
 .podcast.podcast--page {
-	padding-bottom: 165px;
+	padding-bottom:50px;
+	padding-top: 35px;	
 }
 
 .load__more {
 	padding-top: 30px;
+	padding-bottom: 75px;
 }
 
 .load__more a {
@@ -2786,6 +2799,8 @@ ol {
 	}
 	.podcast__top h2 {
 		margin-bottom: 30px;
+		justify-content: center;
+        justify-items: center;
 	}
 	.podcast__top ul {
 		text-align: left;

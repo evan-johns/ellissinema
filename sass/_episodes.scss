@@ -5,6 +5,8 @@
 
     &.podcast--page {
         padding-bottom: 165px;
+        justify-content: center;
+        justify-items: center;
     }
 }
 
@@ -35,6 +37,8 @@
     p {
         font-size: 17px;
         line-height: 30px;
+        justify-content: center;
+        justify-items: center;
     }
 
     h4 {
@@ -42,6 +46,13 @@
         font-weight: 700;
         margin-top: 20px;
         margin-bottom: 20px;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    h2 {
+        justify-content: center;
+        justify-items: center;
     }
 
     ul {
@@ -118,6 +129,8 @@
         font-weight: 700;
         color: $primary-color;
         margin-bottom: 5px;
+        justify-content: center;
+        justify-items: center;
 
         span {
             color: $primary-color;
@@ -125,6 +138,8 @@
             font-size: 17px;
             position: relative;
             top: 2px;
+            justify-content: center;
+            justify-items: center;
         }
     }
 
@@ -132,6 +147,8 @@
         color: #353535;
         font-weight: 700;
         font-size: 20px;
+        justify-content: center;
+        justify-items: center;
     }
 }
 
@@ -141,6 +158,8 @@
         color: #353535;
         font-weight: 700;
         margin-bottom: 45px;
+        justify-content: center;
+        justify-items: center;
     }
 
     form {
@@ -171,6 +190,8 @@
             margin-bottom: 34px;
             padding-top: 14px;
             resize: none;
+            justify-content: center;
+            justify-items: center;
 
             &::placeholder {
                 color: #8d8d8d;
