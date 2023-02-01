@@ -133,7 +133,7 @@ export async function getStaticProps() {
         ({ title, description, enclosures, published }) => ({
           title: `${title}`,
           published,
-          description: description.replace(/<br\s*\/?>/g, "").replace(/<a[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/g, "<a href='$1'>$2</a>"),
+          description: description.replace(/<br\s*\/?>/g, "").replace(/<a\s(.+?)>(.+?)<\/a>/g, ''),
           audio: enclosures.map((enclosure) => ({
             src: enclosure.url,
             type: enclosure.type,
@@ -144,4 +144,7 @@ export async function getStaticProps() {
     revalidate: 10,
   }
 }
+
+
+
 
