@@ -1,34 +1,44 @@
-# Transmit
+# Ellissienma Podcast Website - https://ellissinema.netlify.app/
 
-Transmit is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Listen to your favorite episodes directly on our website, or from wherever you enjoy your podcasts!
 
-## Getting started
+## Features
 
-To get started with this template, first install the npm dependencies:
+- **Integrated Audio Player**: Listen to your favorite episodes directly on the website with our user-friendly audio player.
 
-```bash
-npm install
-```
+- **Dynamic Episode Updates**: Enjoy the latest podcast episodes as our RSS feed keeps the content updated seamlessly in real-time.
 
-Next, run the development server:
+- **Sleek and Responsive Design**: The website is crafted with TailwindCSS to provide a modern and responsive user interface across various devices.
 
-```bash
-npm run dev
-```
+- **Platform Options**: Spotify and Apple Podcast links are conveniently provided for a versatile listening experience.
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+## Getting Started
 
-## Customizing
+### Prerequisites
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+Ensure you have Node.js installed on your machine.
 
-## License
+### Installation
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/your-username/ellissienma-podcast.git
+    ```
 
-## Learn more
+2. **Navigate to the Project Directory:**
+    ```bash
+    cd ellissienma-podcast
+    ```
 
-To learn more about the technologies used in this site template, see the following resources:
+3. **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
+4. **Run the Application:**
+    ```bash
+    npm run dev
+    ```
+
+5. **Access Ellissienma:**
+    Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
